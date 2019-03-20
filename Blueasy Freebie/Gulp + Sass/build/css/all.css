@@ -103,7 +103,7 @@ footer {
       margin-left: 15px; } }
 
 .info {
-  background: url("../img/bg-john.png") no-repeat center center fixed;
+  background: url("../img/bg-john.png") no-repeat center center;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 140px; }
