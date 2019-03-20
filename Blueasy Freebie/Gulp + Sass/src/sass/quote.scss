@@ -1,0 +1,37 @@
+.quote {
+	
+	padding: 80px 0;	
+
+	h3 {
+		/* Style for "twitter" */
+		color: #515f67;
+		font-family: "Segoe UI";
+		font-size: 30px;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-bottom: 50px;
+		}
+
+		p {
+color: #515f67;
+font-family: "Segoe UI";
+font-size: 28px;
+font-weight: 300;
+margin-bottom: 30px;
+		}
+
+		a {
+color: #4bcaff;
+font-family: "Segoe UI";
+font-size: 16px;
+font-weight: 700;
+text-decoration: none;	
+text-align: center;
+		}
+
+		@media screen and (max-width: 800px) {
+			.wrap { display: flex; flex-direction: column; justify-content: center;}
+			h3 { text-align: center; }
+			p {text-align: center;}
+		}
+}
