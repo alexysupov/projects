@@ -1,0 +1,40 @@
+
+footer {
+	background-color: #353F47;
+
+	.wrap {
+		min-height: 170px;
+		display: flex;
+		align-items: center;
+	}
+	menu {
+		
+		display: flex;
+
+		li { list-style-type: none; 
+
+			border-right: 2px solid #E1E4E6;
+			padding-right: 15px;
+			margin-left: 15px;
+
+			&:first-child {margin-left: 0;}
+
+			&:last-child { border-right: none; }
+
+			a { /* Style for "home    |" */
+
+				color: #E1E4E6;
+				font-family: "Segoe UI";
+				font-size: 16px;
+				font-weight: bold;
+				text-transform: uppercase; 
+				text-decoration: none;}
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+		.wrap { justify-content: center; }
+
+		menu { margin-left: 15px; }
+	}
+}

@@ -1,0 +1,64 @@
+
+.just-default {
+	background-color: #515F67;
+
+	.wrap {
+		min-height: 475px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		 
+	}
+
+
+
+	h3 {
+		/* Style for "Just defau" */
+	color: #ffffff;
+	font-family: "Segoe UI";
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+	}
+
+	p {
+		/* Style for "Bear claw" */
+	color: #ffffff;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 36px;
+	max-width: 468px;
+	}
+
+	a {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 2px solid #5D3238;
+	text-decoration: none;
+	display: inline-block;
+	color: #5D3238;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+		&:hover {
+			background-color: #5D3238;
+			color: #fff;
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+		.wrap {padding: 80px 0; flex-wrap: wrap; justify-content: center;}
+		h3 { text-align: center; }
+		a { margin-bottom: 25px; }
+
+		.just-default__content { display: flex;  flex-direction: column; align-items:center;}
+		
+
+	}
+}
