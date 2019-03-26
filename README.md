@@ -1,1 +1,1 @@
-Мои проекты. Изпользуются flexbox, grid, boostrap, Gulp, Sass.
+Мои проекты. Используются flexbox, grid, boostrap, Gulp, Sass.
